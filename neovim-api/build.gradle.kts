@@ -34,6 +34,7 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
+                implementation(Dependencies.serializationMsgPack)
             }
         }
         val commonTest by getting {
